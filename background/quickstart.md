@@ -51,3 +51,5 @@ The broader stablecoin market still faces structural risks that discourage long-
 * **No user-directed strategy choices:** Single-strategy pools force users to accept a fixed approach, so they cannot choose between steady, neutral exposure or a higher-yield, more aggressive angle (especially when the team does not disclose how returns are generated).
 
 Consequently, stablecoin holders often feel they must either accept low, passive returns or relinquish control to opaque strategies with no locality for losses.
+
+To address these USD challenges, BitFi's CeDeFi solution layers a protocol-level insurance buffer over the pools and treats the Horizon and Pulsar vaults as insurance-backed strategy pods: the buffer caps losses before user capital is affected, while Horizon remains the stable, delta-neutral strategy and Pulsar pursues more aggressive returns with the understanding that it will absorb drawdowns before Horizon is touched.
