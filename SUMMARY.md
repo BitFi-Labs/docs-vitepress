@@ -36,6 +36,7 @@
 ## Points Program
 
 * [Overview](points-program/overview.md)
+* [Points Categories & Rules](points-program/points-details.md)
 
 ## Developer
 
