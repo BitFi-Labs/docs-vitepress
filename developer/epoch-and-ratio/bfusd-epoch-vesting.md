@@ -1,7 +1,3 @@
----
-icon: timer
----
-
 # bfUSD Epoch Vesting Mechanism
 
 This document describes the bfUSD-specific epoch vesting mechanism used by the Horizon (`hbfUSD`) and Pulsar (`pbfUSD`) vaults on Ethereum. It does not apply to bfBTC.
@@ -133,4 +129,3 @@ This behavior:
 
 * Removes profitable short-term "in-and-out" arbitrage based on the linear vesting curve.
 * Encourages longer-term holding of `pbfUSD` and `hbfUSD` rather than rapid churn around epoch boundaries.
-
