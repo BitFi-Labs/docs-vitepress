@@ -60,6 +60,7 @@
   * [bfUSD Oracle](developer/using-contract/bfusd-oracle.md)
 * [Epoch and Ratio](developer/epoch-and-ratio/README.md)
   * [Epoch Updates](developer/epoch-and-ratio/epoch-updates.md)
+  * [bfUSD Epoch Vesting](developer/epoch-and-ratio/bfusd-epoch-vesting.md)
   * [Underlying Asset Price Variation](developer/epoch-and-ratio/underlying-asset-price-variation.md)
   * [APY Calculation](developer/epoch-and-ratio/apy-calculation.md)
 * [Audit Report](developer/audit-report.md)
