@@ -17,6 +17,8 @@ Due to performance differences between Binance Smart Chain and Ethereum, Ethereu
 
 The same epoch mechanism is used for bfUSD on Ethereum. When `updateEpoch` is called for the bfUSD manager contract, it refreshes the ratios for both Horizon (hbfUSD) and Pulsar (pbfUSD) vaults and settles pending withdrawals based on the updated ratios.
 
+For bfUSD vaults, Horizon (`hbfUSD`) and Pulsar (`pbfUSD`) additionally use an **Epoch Vesting** mechanism: when the epoch ratio increases, the new ratio is linearly vested over a fixed window rather than applied instantly. This reduces short-term arbitrage opportunities around the epoch boundary. For full details, including formulas and the latest design update, see [bfUSD Epoch Vesting](bfusd-epoch-vesting.md).
+
 After a bfUSD epoch update:
 
 * `currentRatio` and `epochRatios` for hbfUSD and pbfUSD reflect the new exchange rate between shares and bfUSD.

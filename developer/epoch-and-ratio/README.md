@@ -12,6 +12,10 @@ At the end of each epoch, BitFi updates the exchange rates for bfBTC - BTC and p
 [epoch-updates.md](epoch-updates.md)
 {% endcontent-ref %}
 
+{% content-ref url="bfusd-epoch-vesting.md" %}
+[bfusd-epoch-vesting.md](bfusd-epoch-vesting.md)
+{% endcontent-ref %}
+
 {% content-ref url="underlying-asset-price-variation.md" %}
 [underlying-asset-price-variation.md](underlying-asset-price-variation.md)
 {% endcontent-ref %}
