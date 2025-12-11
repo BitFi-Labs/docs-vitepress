@@ -133,7 +133,7 @@ export default defineConfig({
   description: 'BitFi documentation on VitePress',
   srcDir: '.',
   cleanUrls: true,
-  appearance: false,
+  appearance: true,
   head: [
     ['link', { rel: 'icon', href: '/logo-bitfi.svg' }]
   ],
