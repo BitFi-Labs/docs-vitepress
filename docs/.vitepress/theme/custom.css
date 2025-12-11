@@ -90,10 +90,15 @@ body {
   letter-spacing: 0.08em;
 }
 
-.VPSidebar .VPNavLink, .VPSidebar .link {
+.VPSidebar .item {
+  align-items: center;
+}
+
+.VPSidebar .VPNavLink, .VPSidebar .link { /* Sidebar UI */
   border-radius: 10px;
   font-weight: 300;
   color: var(--vp-c-text-2);
+  padding: 4px 8px;
 }
 
 .VPSidebar .VPNavLink:hover, .VPSidebar .link:hover {
