@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+:root {
+  --vp-font-family-base: 'Manrope', 'Segoe UI', 'Noto Sans', sans-serif;
+  --vp-font-family-mono: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  --vp-c-brand-1: #0a6b5b;
+  --vp-c-brand-2: #0d8c75;
+  --vp-c-brand-3: #0b5d4f;
+
+  --vp-c-bg: #f7faf8;
+  --vp-c-bg-soft: #eef4f1;
+  --vp-c-bg-alt: #ffffff;
+  --vp-c-text-1: #132422;
+  --vp-c-text-2: #3c4b48;
+  --vp-c-divider: #e2ebe7;
+
+  --vp-nav-height: 64px;
+}
+
+body {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}
+
+.VPNavBar {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.VPNavBar .VPNavBarTitle .title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink {
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink[href="/points-program/overview"] {
+  background: var(--vp-c-brand-1);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(10, 107, 91, 0.18);
+}
+
+.VPNavBarMenu .VPNavBarMenuLink[href="/points-program/overview"]:hover {
+  background: var(--vp-c-brand-2);
+}
+
+.VPNavBarSearch .search-bar {
+  border-radius: 12px;
+  border: 1px solid #d9e6df;
+  background: #f3f8f6;
+  color: var(--vp-c-text-1);
+}
+
+.VPNavBarSearch .search-bar:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.VPSidebar {
+  background: var(--vp-c-bg);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.VPSidebar .group + .group {
+  margin-top: 8px;
+}
+
+.VPSidebar .group .title {
+  color: #7b8a85;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.VPSidebar .VPNavLink, .VPSidebar .link {
+  border-radius: 10px;
+}
+
+.VPSidebar .VPNavLink:hover, .VPSidebar .link:hover {
+  background: rgba(10, 107, 91, 0.08);
+}
+
+.VPSidebar .VPNavLink.active, .VPSidebar .link.active {
+  background: rgba(10, 107, 91, 0.12);
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+.main > .layout {
+  padding-top: 12px;
+}
+
+.vp-doc h1 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
+}
+
+.vp-doc h2 {
+  color: var(--vp-c-text-1);
+  margin-top: 32px;
+}
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  min-height: 220px;
+  margin: 0 0 32px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(247, 250, 248, 0.95)), url('/banner.png') center / cover no-repeat;
+  box-shadow: 0 24px 40px rgba(11, 93, 79, 0.08);
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner .hero-inner {
+  padding: 38px 56px;
+  max-width: 780px;
+}
+
+.hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(10, 107, 91, 0.08);
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #0e302a;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.hero-subtitle {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #2f413d;
+  max-width: 520px;
+}
+
+.vp-doc blockquote {
+  border-left-color: rgba(10, 107, 91, 0.35);
+  background: #f3f8f6;
+  padding: 14px 18px;
+  border-radius: 10px;
+}
+
+.vp-doc .custom-card {
+  background: #ffffff;
+  border: 1px solid #dfe9e4;
+  box-shadow: 0 10px 20px rgba(11, 93, 79, 0.05);
+}
+
+.VPDocAside {
+  background: transparent;
+}
+
+.VPDocAside .outline {
+  background: rgba(10, 107, 91, 0.06);
+  border: 1px solid rgba(10, 107, 91, 0.14);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.VPDocAside .outline .outline-link.active {
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+@media (max-width: 960px) {
+  .hero-banner {
+    min-height: 160px;
+    background-position: center;
+  }
+
+  .hero-banner .hero-inner {
+    padding: 26px;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
+  }
+}
