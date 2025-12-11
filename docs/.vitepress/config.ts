@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 const sidebar = [
   {
-    text: 'Welcome to BitFi',
+    text: 'OVERVIEW',
     collapsed: false,
     items: [
       { text: 'Welcome to BitFi', link: '/' },
@@ -131,7 +131,7 @@ const sidebar = [
 export default defineConfig({
   lang: 'en-US',
   title: 'BitFi Docs',
-  description: 'BitFi documentation migrated to VitePress',
+  description: 'BitFi documentation on VitePress',
   srcDir: '.',
   cleanUrls: true,
   appearance: false,
