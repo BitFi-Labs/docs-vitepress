@@ -54,6 +54,16 @@ body {
   background: var(--vp-c-brand-2);
 }
 
+.VPNavBarMenu .VPNavBarMenuLink[href="https://app.bitfi.one/"] {
+  background: var(--vp-c-brand-1);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(10, 107, 91, 0.18);
+}
+
+.VPNavBarMenu .VPNavBarMenuLink[href="https://app.bitfi.one/"]:hover {
+  background: var(--vp-c-brand-2);
+}
+
 .VPNavBarSearch .search-bar {
   border-radius: 12px;
   border: 1px solid #d9e6df;

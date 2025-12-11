@@ -143,8 +143,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo-bitfi.svg',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Earn', link: '/points-program/overview', activeMatch: '/points-program/' }
+      { text: 'Docs', link: '/' },
+      { text: 'Home', link: 'https://www.bitfi.one/' },
+      { text: 'Earn', link: 'https://app.bitfi.one/' }
     ],
     sidebar,
     outline: {
@@ -155,8 +156,11 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/bitfi' },
-      { icon: 'twitter', link: 'https://x.com/Bitfi_Org' }
+      { icon: 'github', link: 'https://github.com/bitfi-labs' },
+      { icon: 'x', link: 'https://x.com/Bitfi_Org' },
+      { icon: 'discord', link: 'https://discord.gg/MRNjNACS5R' },
+      { icon: 'telegram', link: 'https://t.me/bitfi_org' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/bitfi-org' }
     ],
     lastUpdatedText: 'Updated',
     footer: {
