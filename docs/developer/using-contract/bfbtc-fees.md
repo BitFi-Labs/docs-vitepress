@@ -79,7 +79,7 @@ Calculate fees for a specific operation based on user address and amount.
 **Calculation Formula:**
 
 $$
-\text{percentageFee} = \text{amount} \times \frac{\text{percentageFeeConfig}}{\text{FEE_PRECISION}}
+\text{percentageFee} = \text{amount} \times \frac{\text{percentageFeeConfig}}{\text{FEE\_PRECISION}}
 $$
 
 $$

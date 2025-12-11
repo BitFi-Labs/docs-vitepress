@@ -81,7 +81,7 @@ Calculate fees for a specific operation based on user address and amount.
 **Calculation Formula:**
 
 $$
-\text{percentageFee} = \text{amount} \times \frac{\text{percentageFeeConfig}}{\text{FEE_PRECISION}}
+\text{percentageFee} = \text{amount} \times \frac{\text{percentageFeeConfig}}{\text{FEE\_PRECISION}}
 $$
 
 $$
@@ -118,4 +118,3 @@ event FeeCollected(
 * Fee events provide tracking and auditing capabilities
 * Whitelist mechanism allows for special cases and promotions
 * Fee configuration can be updated based on market conditions
-
