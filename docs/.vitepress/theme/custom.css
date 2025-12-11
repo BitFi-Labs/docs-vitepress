@@ -35,8 +35,12 @@ body {
 }
 
 .VPNavBarMenu .VPNavBarMenuLink {
+  display: inline-flex;
+  align-items: center;
   border-radius: 999px;
   padding: 8px 14px;
+  height: auto;
+  line-height: 1.2;
   font-weight: 600;
 }
 
