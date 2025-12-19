@@ -27,13 +27,13 @@ Reward tokens are calculated once per Epoch and allocated to each user based on 
 **Formula:**
 
 $$
-\text{Tokens APY} = \frac{\text{DailyRewards}}{\text{VaultSharesTotalSupply} \times \text{CurrentVaultSharesPrice}} \times 365 \times 100
+\text{TokensAPY} = \frac{\text{DailyRewards}}{\text{SharesTotalSupply} \times \text{CurrentSharesPrice}} \times 365 \times 100
 $$
 
 Where:
 - $\text{DailyRewards}$ = Daily token rewards in USD value
-- $\text{VaultSharesTotalSupply}$ = Total supply of vault share tokens
-- $\text{CurrentVaultSharesPrice}$ = Current price of vault shares
+- $\text{SharesTotalSupply}$ = Total supply of vault share tokens
+- $\text{CurrentSharesPrice}$ = Current price of vault shares
 
 ### How to Claim Tokens APY Rewards
 
@@ -42,7 +42,7 @@ After the campaign ends, we will calculate reward distribution based on random s
 **User Claimable Amount:**
 
 $$
-\text{User Claimable Amount} = \text{TotalRewards} \times \frac{\text{User's Total Share Balance}}{\text{All Users' Total Share Balance}}
+\text{UserClaimableAmount} = \text{TotalRewards} \times \frac{\text{User'sTotalShareBalance}}{\text{All Users'TotalShareBalance}}
 $$
 
 Claimed tokens will be subject to vesting rules, requiring an unlock period with linear release over time.
