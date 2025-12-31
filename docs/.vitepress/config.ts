@@ -84,7 +84,8 @@ const sidebar = [
           { text: 'Deployed Contracts', link: '/developer/bfusd-overview/deployed-contracts' },
           { text: 'Contract Parameters', link: '/developer/bfusd-overview/contract-parameters' },
           { text: 'Contract ABI', link: '/developer/bfusd-overview/contract-abi' },
-          { text: 'Understand bfUSD APY', link: '/developer/bfusd-overview/understand-bfusd-apy' }
+          { text: 'Understand bfUSD APY', link: '/developer/bfusd-overview/understand-bfusd-apy' },
+          { text: 'Boost Rewards', link: '/developer/bfusd-overview/boost-rewards' }
         ]
       },
       {
