@@ -57,6 +57,15 @@ const sidebar = [
     ]
   },
   {
+    text: 'PUBLIC SALE',
+    items: [
+      { text: 'Public Sale Details', link: '/public-sale/sale-details' },
+      { text: 'Restricted Countries', link: '/public-sale/restricted-countries' },
+      { text: 'FAQ', link: '/public-sale/faq' },
+      { text: 'Legal Terms', link: '/public-sale/legal-terms' }
+    ]
+  },
+  {
     text: 'POINTS PROGRAM',
     items: [
       { text: 'Overview', link: '/points-program/overview' },
