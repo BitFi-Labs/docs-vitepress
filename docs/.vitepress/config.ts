@@ -43,6 +43,15 @@ const sidebar = [
     ]
   },
   {
+    text: 'PUBLIC SALE',
+    items: [
+      { text: 'Public Sale Details', link: '/public-sale/sale-details' },
+      { text: 'Restricted Countries', link: '/public-sale/restricted-countries' },
+      { text: 'FAQ', link: '/public-sale/faq' },
+      { text: 'Legal Terms', link: '/public-sale/legal-terms' }
+    ]
+  },
+  {
     text: 'HOW TO',
     items: [
       { text: 'Introduction', link: '/how-to/introduction' },
@@ -54,15 +63,6 @@ const sidebar = [
       { text: 'Unstake bfBTC to EVM-Compatible Chain', link: '/how-to/unstake-bfbtc-to-evm-compatible-chain' },
       { text: 'Unstake bfBTC to Bitcoin Network', link: '/how-to/unstake-bfbtc-to-bitcoin-network' },
       { text: 'Create SUI Wallet', link: '/how-to/create-sui-wallet' }
-    ]
-  },
-  {
-    text: 'PUBLIC SALE',
-    items: [
-      { text: 'Public Sale Details', link: '/public-sale/sale-details' },
-      { text: 'Restricted Countries', link: '/public-sale/restricted-countries' },
-      { text: 'FAQ', link: '/public-sale/faq' },
-      { text: 'Legal Terms', link: '/public-sale/legal-terms' }
     ]
   },
   {
