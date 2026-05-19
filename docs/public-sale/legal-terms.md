@@ -34,14 +34,14 @@ United States participation, if available, is limited to verified accredited inv
 
 The Public Sale uses a fixed-price, pro-rata settlement model.
 
-| Track | Price | Unlock |
+| Track | Price / Token Incentive | Unlock |
 | --- | --- | --- |
 | Track A: Standard | $0.05 per BFI | 100% unlocked at TGE |
-| Track B: Locked | $0.045 per BFI | 12-month lock-up from TGE |
+| Track B: Locked | $0.05 per BFI. Eligible U.S. participants receive 10% extra BFI tokens. | 12-month lock-up from TGE |
 
 If the sale is oversubscribed, each participant's commitment is scaled down proportionally so that total allocations match the available supply. Any unfilled commitment amount is refunded or made claimable according to the final sale rules.
 
-Locked-track tokens cannot be transferred or sold during the lock-up period. Locked tokens cannot be staked and do not earn staking rewards while locked.
+Locked-track tokens, including any extra BFI token allocation, cannot be transferred or sold during the lock-up period. Locked tokens cannot be staked and do not earn staking rewards while locked.
 
 ## Risk Disclosure
 

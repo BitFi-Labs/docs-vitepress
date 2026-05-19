@@ -34,18 +34,20 @@ If the sale is oversubscribed, each participant's contribution is scaled down pr
 
 ## Participation Tracks
 
-| Track | Eligibility | Price | Unlock |
+| Track | Eligibility | Price / Token Incentive | Unlock |
 | --- | --- | --- | --- |
 | Track A: Standard | Non-U.S. participants, subject to eligibility and jurisdiction rules | $0.05 per BFI | 100% unlocked at TGE |
-| Track B: Locked | Mandatory for verified U.S. accredited investors; optional for eligible non-U.S. participants | $0.045 per BFI, equal to a 10% discount | 12-month lock-up from TGE |
+| Track B: Locked | Mandatory for verified U.S. accredited investors; optional for eligible non-U.S. participants | $0.05 per BFI. Eligible U.S. participants receive 10% extra BFI tokens. | 12-month lock-up from TGE |
 
-Locked tokens cannot be transferred or sold during the lock-up period and do not earn staking rewards while locked.
+Locked tokens, including any extra BFI token allocation, cannot be transferred or sold during the lock-up period and do not earn staking rewards while locked.
 
 ## U.S. Participant Lock-Up Requirement
 
 U.S. participants, if eligible to participate, must complete Sonar's required identity, residency, and accreditation checks and must use the locked participation track.
 
-BFI allocated to U.S. participants is subject to a mandatory 12-month lock-up from TGE. During the lock-up period, these tokens cannot be transferred, sold, or staked, and they do not earn staking rewards while locked.
+U.S. participants pay the standard Public Sale price of $0.05 per BFI. Eligible U.S. participants receive 10% extra BFI tokens under the locked participation track.
+
+BFI allocated to U.S. participants, including the 10% extra token allocation, is subject to a mandatory 12-month lock-up from TGE. During the lock-up period, these tokens cannot be transferred, sold, or staked, and they do not earn staking rewards while locked.
 
 Sonar supports this requirement through its U.S. investor forced-lockup configuration. When a participant is identified as a U.S. entity, the sale flow must submit the commitment with the lock-up flag enabled; otherwise, the sale contract may reject the commitment.
 

@@ -40,11 +40,13 @@ No. Participation is subject to jurisdictional restrictions, sanctions screening
 
 ### Can U.S. residents participate?
 
-U.S. participation, if available, is limited to verified accredited investors. U.S. participants must use the locked track and are subject to a mandatory 12-month lock-up from TGE. Because U.S. participants must use the locked track, they receive the locked-track price of $0.045 per BFI, equal to a 10% discount from the standard sale price.
+U.S. participation, if available, is limited to verified accredited investors. U.S. participants must use the locked track and are subject to a mandatory 12-month lock-up from TGE.
+
+U.S. participants pay the standard Public Sale price of $0.05 per BFI. Eligible U.S. participants receive 10% extra BFI tokens, and the full U.S. allocation, including the extra tokens, remains subject to the lock-up.
 
 ### Do U.S. participants have different rules?
 
-Yes. U.S. participants, if eligible, must pass Sonar's U.S. accreditation checks and use the locked participation track. BFI allocated to U.S. participants is subject to a mandatory 12-month lock-up from TGE.
+Yes. U.S. participants, if eligible, must pass Sonar's U.S. accreditation checks and use the locked participation track. They pay $0.05 per BFI, receive 10% extra BFI tokens, and the full allocation is subject to a mandatory 12-month lock-up from TGE.
 
 ## Wallet and Network
 
@@ -91,7 +93,7 @@ Before a commitment is submitted, the sale flow may check whether KYC/KYB is com
 
 ### What is the sale price?
 
-The standard sale price is $0.05 per BFI. A locked participation track is available at $0.045 per BFI, equal to a 10% discount.
+The standard sale price is $0.05 per BFI. Eligible U.S. participants also pay $0.05 per BFI and receive 10% extra BFI tokens under the locked track. This is an extra-token allocation, not a lower token price.
 
 ### What is the sale format?
 
