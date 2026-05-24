@@ -47,8 +47,7 @@ const sidebar = [
     items: [
       { text: 'Public Sale Details', link: '/public-sale/sale-details' },
       { text: 'Restricted Countries', link: '/public-sale/restricted-countries' },
-      { text: 'FAQ', link: '/public-sale/faq' },
-      { text: 'Legal Terms', link: '/public-sale/legal-terms' }
+      { text: 'FAQ', link: '/public-sale/faq' }
     ]
   },
   {

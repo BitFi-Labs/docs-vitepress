@@ -24,7 +24,7 @@ BFI is designed to support BitFi's long-term growth through governance, staking-
 | Target Raise | $500,000 |
 | Pricing Model | Fixed Price |
 | Settlement Model | Pro-Rata |
-| Accepted Assets | USDC / USDT on Ethereum |
+| Accepted Assets | USDC on Ethereum |
 | Supported Chain | Ethereum |
 | Token Standard | ERC-20 |
 | Crosschain Standard | LayerZero OFT |
@@ -34,22 +34,11 @@ If the sale is oversubscribed, each participant's contribution is scaled down pr
 
 ## Participation Tracks
 
-| Track | Eligibility | Price / Token Incentive | Unlock |
+The current Public Sale uses a single standard participation path. U.S. persons and participants located in the United States are not eligible to participate.
+
+| Track | Eligibility | Price | Unlock |
 | --- | --- | --- | --- |
-| Track A: Standard | Non-U.S. participants, subject to eligibility and jurisdiction rules | $0.05 per BFI | 100% unlocked at TGE |
-| Track B: Locked | Mandatory for verified U.S. accredited investors; optional for eligible non-U.S. participants | $0.05 per BFI. Eligible U.S. participants receive 10% extra BFI tokens. | 12-month lock-up from TGE |
-
-Locked tokens, including any extra BFI token allocation, cannot be transferred or sold during the lock-up period and do not earn staking rewards while locked.
-
-## U.S. Participant Lock-Up Requirement
-
-U.S. participants, if eligible to participate, must complete Sonar's required identity, residency, and accreditation checks and must use the locked participation track.
-
-U.S. participants pay the standard Public Sale price of $0.05 per BFI. Eligible U.S. participants receive 10% extra BFI tokens under the locked participation track.
-
-BFI allocated to U.S. participants, including the 10% extra token allocation, is subject to a mandatory 12-month lock-up from TGE. During the lock-up period, these tokens cannot be transferred, sold, or staked, and they do not earn staking rewards while locked.
-
-Sonar supports this requirement through its U.S. investor forced-lockup configuration. When a participant is identified as a U.S. entity, the sale flow must submit the commitment with the lock-up flag enabled; otherwise, the sale contract may reject the commitment.
+| Standard | Eligible non-U.S. participants, subject to identity verification, jurisdiction rules, sanctions screening, wallet risk screening, and local law | $0.05 per BFI | 100% unlocked at TGE |
 
 ## Why This Sale
 
@@ -75,7 +64,7 @@ The sale price is fixed in alignment with the seed round valuation. The intentio
    Sonar generates a short-lived signed purchase permit for the eligible entity and linked wallet. The permit is passed to the sale contract together with the purchase transaction.
 
 6. **Submit Commitment**  
-   Submit an on-chain commitment during the live sale window using the accepted assets and network specified above. The sale contract verifies the Sonar permit before accepting the commitment.
+   Submit an on-chain commitment during the live sale window using the accepted asset and network specified above. The sale contract verifies the Sonar permit before accepting the commitment.
 
 7. **Settlement and Refunds**  
    After the sale closes, final allocations are calculated. If the sale is oversubscribed, commitments may be scaled according to the final allocation logic.
@@ -83,7 +72,7 @@ The sale price is fixed in alignment with the seed round valuation. The intentio
    Any unallocated commitment amount is refunded or made claimable according to the final sale rules.
 
 8. **Receive BFI at TGE**  
-   BFI purchased in the Public Sale is expected to be distributed at TGE. Standard-track tokens are fully unlocked at distribution; locked-track tokens follow the applicable lock-up terms.
+   BFI purchased in the Public Sale is expected to be distributed at TGE and fully unlocked at distribution.
 
 ## Timeline
 

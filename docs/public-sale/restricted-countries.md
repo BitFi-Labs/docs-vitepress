@@ -27,6 +27,7 @@ The Public Sale is not available to participants from restricted jurisdictions, 
 - Sudan
 - Libya
 - Yemen
+- United States
 - United Kingdom
 - Mainland China
 - Hong Kong SAR
@@ -35,9 +36,7 @@ Additional restrictions may apply based on sanctions screening, wallet risk scre
 
 ## U.S. Participant Eligibility
 
-United States participation, if available, is limited to verified accredited investors.
-
-U.S. participants are required to use the locked participation track. Tokens issued to U.S. participants are subject to a mandatory 12-month lock-up from TGE and may be subject to resale restrictions under applicable U.S. securities laws.
+United States participation is not supported for this Public Sale. U.S. persons and participants located in the United States are restricted and cannot participate.
 
 ## Verification Notes
 
