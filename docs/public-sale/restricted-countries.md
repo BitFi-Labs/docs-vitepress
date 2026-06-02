@@ -30,7 +30,6 @@ The Public Sale is not available to participants from restricted jurisdictions, 
 - United States
 - United Kingdom
 - Mainland China
-- Hong Kong SAR
 
 Additional restrictions may apply based on sanctions screening, wallet risk screening, or the final sale terms.
 
