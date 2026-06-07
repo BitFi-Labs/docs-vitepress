@@ -79,7 +79,7 @@ The sale price is fixed in alignment with the seed round valuation. The intentio
 | Event | Timing |
 | --- | --- |
 | Registration Opens | June 1, 2026 (UTC) |
-| Sale Window | June 8 to June 12, 2026 (UTC) |
+| Sale Window | June 11 to June 15, 2026 (UTC) |
 | Settlement | After sale close |
 | Refunds / Claims | Available after settlement, according to final sale rules |
 | TGE | To be announced |
