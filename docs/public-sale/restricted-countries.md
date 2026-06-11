@@ -17,15 +17,27 @@ Access may be limited or unavailable depending on the laws and regulations of a 
 The Public Sale is not available to participants from restricted jurisdictions, including:
 
 - North Korea
+- Afghanistan
 - Iran
 - Cuba
 - Syria
 - Russia
 - Belarus
+- Bosnia and Herzegovina
+- Burkina Faso
+- Cameroon
+- Central African Republic
+- Democratic Republic of Congo
+- Ethiopia
+- Eritrea
+- Iraq
+- Lebanon
 - Myanmar
 - Somalia
 - Sudan
 - Libya
+- Mali
+- Palau
 - Yemen
 - United States
 - United Kingdom
