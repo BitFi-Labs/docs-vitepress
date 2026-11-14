@@ -10,13 +10,19 @@ You can find BitFi’s brand assets, including primary colors, fonts, logos, and
 
 
 
-SVG & PNG files are available for BitFi, bfBTC and bfUSD brand assets.
+SVG & PNG files are available for BitFi, BFI, bfBTC and bfUSD brand assets.
 
 [Download the full asset kit (ZIP)](/assets/bitfi-brand-assets.zip)
 
 
 
 ## Logos
+
+### BFI Icon
+
+<img src="/assets/BFI-logo-symbol-color.svg" alt="BFI icon" width="150" height="175" />
+
+[Download SVG](/assets/BFI-logo-symbol-color.svg) · [Download PNG](/assets/BFI-logo-symbol-color.png)
 
 ### bfBTC Logo
 ![bfBTC logo](/assets/bfBTC-logo-symbol-color.png)
