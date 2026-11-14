@@ -20,7 +20,7 @@ SVG & PNG files are available for BitFi, BFI, bfBTC and bfUSD brand assets.
 
 ### BFI Icon
 
-<img src="/assets/BFI-logo-symbol-color.svg" alt="BFI icon" width="150" height="175" />
+<img src="/assets/BFI-logo-symbol-color.svg" alt="BFI icon" width="417" height="417" />
 
 [Download SVG](/assets/BFI-logo-symbol-color.svg) · [Download PNG](/assets/BFI-logo-symbol-color.png)
 
